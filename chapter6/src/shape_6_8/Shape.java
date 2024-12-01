@@ -1,4 +1,4 @@
-package Count6_2;
+package shape_6_8;
 
 public class Shape {
     // 抽象方法计算面积

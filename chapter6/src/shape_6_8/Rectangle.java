@@ -1,4 +1,4 @@
-package Count6_2;
+package shape_6_8;
 
 public class Rectangle extends Shape{
     private double length;

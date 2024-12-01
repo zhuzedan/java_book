@@ -1,4 +1,4 @@
-package AchievementRating6_3;
+package student_6_9;
 
 public class Test {
     public static void main(String[] args) {

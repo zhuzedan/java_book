@@ -1,4 +1,4 @@
-package AchievementRating6_3;
+package student_6_9;
 
 public class Graduate extends Student{
     public Graduate(String studentId, String name, int[] score) {

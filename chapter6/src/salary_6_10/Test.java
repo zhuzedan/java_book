@@ -1,4 +1,4 @@
-package Salary6_4;
+package salary_6_10;
 
 public class Test {
     public static void main(String[] args) {

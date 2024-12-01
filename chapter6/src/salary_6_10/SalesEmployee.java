@@ -1,4 +1,4 @@
-package Salary6_4;
+package salary_6_10;
 
 public class SalesEmployee extends Employee{
     private double monthlySales;

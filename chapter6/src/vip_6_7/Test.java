@@ -1,4 +1,4 @@
-package VIP6_1;
+package vip_6_7;
 
 public class Test {
     public static void main(String[] args) {
