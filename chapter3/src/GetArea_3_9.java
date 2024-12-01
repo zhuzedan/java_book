@@ -1,4 +1,4 @@
-public class GetArea3_11 {
+public class GetArea_3_9 {
     public static void main(String[] args) {
         getArea(3, 4, 5);
         getArea(2);

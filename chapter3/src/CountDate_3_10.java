@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CountDate_3_12 {
+public class CountDate_3_10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入年份：");

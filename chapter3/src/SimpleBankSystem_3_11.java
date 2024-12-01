@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SimpleBankSystem_3_13 {
+public class SimpleBankSystem_3_11 {
     private static double balance = 0; // 静态变量作为账户余额
 
     // 存款方法

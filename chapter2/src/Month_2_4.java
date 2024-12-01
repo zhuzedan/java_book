@@ -23,8 +23,9 @@ public class Month_2_4 {
             case 11:
                 day = 30;
                 break;
-            default:System.out.println("您的输入有误！");
+            default:
+                System.out.println("您的输入有误！");
         }
-        System.out.println(month + "月:"+day + "天");
+        System.out.println(month + "月:" + day + "天");
     }
 }

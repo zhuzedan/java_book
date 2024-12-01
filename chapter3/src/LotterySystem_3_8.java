@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Price_3_11 {
+public class LotterySystem_3_8 {
     public static void main(String[] args) throws InterruptedException {
         String[] phoneNum = {"187****3612", "199****7781", "137****8121", "187****7033", "155****2478",
                 "131****7126", "132****6947", "130****5401", "188****5633", "138****8193"};
