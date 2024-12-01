@@ -1,4 +1,4 @@
-package KTV8_4;
+package ktv_8_11;
 
 public class Song {
     private String id; // 歌曲编号

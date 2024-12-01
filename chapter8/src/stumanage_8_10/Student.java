@@ -1,4 +1,4 @@
-package StudentsManage8_3;
+package stumanage_8_10;
 
 public class Student implements Comparable<Student> {
     // 学号

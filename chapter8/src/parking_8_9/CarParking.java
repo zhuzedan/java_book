@@ -1,4 +1,4 @@
-package Parking8_2;
+package parking_8_9;
 
 public class CarParking {
     private String lpn; // 车牌号

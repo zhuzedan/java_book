@@ -1,4 +1,4 @@
-package Tea8_1;
+package goods_8_8;
 
 public class User {
     private int userId;
