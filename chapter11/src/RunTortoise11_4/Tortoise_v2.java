@@ -8,48 +8,50 @@ import java.awt.event.KeyListener;
 class MyFrame11_11 extends JFrame implements KeyListener {
     int count = 0;
     int y1, y2;
+
     public MyFrame11_11(String title) {
         super(title);
         addKeyListener(this);
     }
+
     public void paint(Graphics g) {
-        super.paint(g);//调用父类的paint方法
-        Color color = new Color(86, 180, 62);//画笔颜色
-        g.setColor(color);//设置画笔
+        super.paint(g);// 调用父类的paint方法
+        Color color = new Color(86, 180, 62);// 画笔颜色
+        g.setColor(color);// 设置画笔
         g.fillOval(200, 150, 60, 100);
-        //左眼
-        color = new Color(255, 255, 255);//白色
+        // 左眼
+        color = new Color(255, 255, 255);// 白色
         g.setColor(color);
         g.fillOval(210, 160, 10, 10);
-        color = new Color(0, 0, 0);//黑色
+        color = new Color(0, 0, 0);// 黑色
         g.setColor(color);
         g.fillOval(210, 160, 7, 7);
-        //右眼
+        // 右眼
         color = new Color(255, 255, 255);
         g.setColor(color);
         g.fillOval(240, 160, 10, 10);
         color = new Color(0, 0, 0);
         g.setColor(color);
         g.fillOval(240, 160, 7, 7);
-        //画笔重置为绿色
+        // 画笔重置为绿色
         color = new Color(86, 180, 62);
         g.setColor(color);
-        //左前
+        // 左前
         g.fillOval(100, 200 - y1, 70, 100);
-        //右前
+        // 右前
         g.fillOval(280, 200 - y2, 70, 100);
-        //左后
+        // 左后
         g.fillOval(100, 350 + y2, 70, 100);
-        //右后
+        // 右后
         g.fillOval(280, 350 + y2, 70, 100);
-        //尾巴
+        // 尾巴
         for (int x = 220; x <= 230; x++) {
             g.drawLine(x, 400, 225, 500);
         }
-        //壳
+        // 壳
         color = new Color(67, 200, 0);
         g.setColor(color);
-        g.fillOval(100, 200, 250, 250);//绘制一个圆
+        g.fillOval(100, 200, 250, 250);// 绘制一个圆
         color = new Color(34, 153, 0);
         g.setColor(color);
         g.drawLine(100, 320, 150, 310);
@@ -65,6 +67,7 @@ class MyFrame11_11 extends JFrame implements KeyListener {
         g.drawLine(250, 330, 300, 310);
         g.drawLine(300, 310, 350, 320);
     }
+
     @Override
     public void keyTyped(KeyEvent e) {
 
@@ -90,6 +93,7 @@ class MyFrame11_11 extends JFrame implements KeyListener {
 
     }
 }
+
 public class Tortoise_v2 {
     public static void main(String[] args) {
         MyFrame11_11 frame = new MyFrame11_11("小乌龟");

@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class ClassRoom9_2 extends JFrame {
-    public ClassRoom9_2() {
+public class ClassRoom_9_2 extends JFrame {
+    public ClassRoom_9_2() {
         this.setTitle("教室平面图");
         this.setSize(500, 300);
         this.setVisible(true);
@@ -19,6 +19,6 @@ public class ClassRoom9_2 extends JFrame {
     }
 
     public static void main(String[] args) {
-        new ClassRoom9_2();
+        new ClassRoom_9_2();
     }
 }

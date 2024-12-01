@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Calculator9_3 extends JFrame {
-    public Calculator9_3() {
+public class Calculator_9_3 extends JFrame {
+    public Calculator_9_3() {
         this.setTitle("计算器");
         this.setLayout(new GridLayout(4, 4, 5, 5));
         String[] num = {"7", "8", "9", "+", "4", "5", "6", "-", "1", "2", "3", "*", "0", ".", "=", "/"};
@@ -16,6 +16,6 @@ public class Calculator9_3 extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Calculator9_3();
+        new Calculator_9_3();
     }
 }

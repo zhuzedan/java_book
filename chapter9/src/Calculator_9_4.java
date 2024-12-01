@@ -3,8 +3,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Calculator9_4 extends JFrame {
-    public Calculator9_4() {
+public class Calculator_9_4 extends JFrame {
+    public Calculator_9_4() {
         this.setLayout(new FlowLayout());
         this.setTitle("乘法计算器");
         this.setLocation(500, 500);
@@ -45,6 +45,6 @@ public class Calculator9_4 extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Calculator9_4();
+        new Calculator_9_4();
     }
 }
