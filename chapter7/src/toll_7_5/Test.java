@@ -1,4 +1,4 @@
-package TollCollectionSystem7_2;
+package toll_7_5;
 
 public class Test {
     public static void main(String[] args) {

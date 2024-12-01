@@ -1,4 +1,4 @@
-package TollCollectionSystem7_2;
+package toll_7_5;
 
 public class TaxiPriceCalculator implements PriceCalculator {
     private static final double START_PRICE = 10.0; // 出租车起步价

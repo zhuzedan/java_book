@@ -1,4 +1,4 @@
-package Loan7_3;
+package loan_7_6;
 
 public class Student implements Person {
     private String name;

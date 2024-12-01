@@ -1,4 +1,4 @@
-package PriceManage7_4;
+package price_7_7;
 
 public class Goods {
     private double unitPrice;//单价

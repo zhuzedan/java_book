@@ -1,4 +1,4 @@
-package TollCollectionSystem7_2;
+package toll_7_5;
 
 public class CinemaPriceCalculator implements PriceCalculator {
     private String movieType;

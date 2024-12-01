@@ -1,4 +1,4 @@
-package Loan7_3;
+package loan_7_6;
 
 public class Test {
     public static void main(String[] args) {

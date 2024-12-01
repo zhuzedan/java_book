@@ -1,4 +1,4 @@
-package PriceManage7_4;
+package price_7_7;
 
 public class Test {
     public static void main(String[] args) {

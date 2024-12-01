@@ -1,4 +1,4 @@
-package Transportation7_1;
+package transport_7_4;
 
 public interface Rental {
     void rent();
