@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Triangle_1_6 {
+public class Triangle_1_7 {
     public static void main(String[] args) {
         double a, b, c, p, area;
         Scanner sc = new Scanner(System.in);

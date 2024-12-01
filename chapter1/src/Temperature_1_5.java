@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Temperature_1_4 {
+public class Temperature_1_5 {
     public static void main(String[] args) {
         int f;
         int c;
