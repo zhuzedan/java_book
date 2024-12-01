@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class LotterySystem_3_8 {
     public static void main(String[] args) throws InterruptedException {
-        String[] phoneNum = {"187****3612", "199****7781", "137****8121", "187****7033", "155****2478",
+        String[] phoneNums = {"187****3612", "199****7781", "137****8121", "187****7033", "155****2478",
                 "131****7126", "132****6947", "130****5401", "188****5633", "138****8193"};
         Scanner input = new Scanner(System.in);
         System.out.println("---------欢迎来到晚会抽奖系统---------");
@@ -16,23 +16,23 @@ public class LotterySystem_3_8 {
             if (key.equals("S")) {
                 System.out.println("名单开始滚动...");
                 for (int i1 = 0; i1 < 3; i1++) {
-                    for (int j = 0; j < phoneNum.length; j++) {
+                    for (int j = 0; j < phoneNums.length; j++) {
                         Thread.sleep(100);
-                        System.out.println(phoneNum[j]);
+                        System.out.println(phoneNums[j]);
                     }
                 }
                 System.out.println("---------------------------------");
             }
             if (n == 1)
-                choose(phoneNum);
+                choose(phoneNums);
             else if (n > 1)
-                choose(phoneNum, n);
+                choose(phoneNums, n);
         }
     }
 
-    public static void choose(String[] phoneNum) {
+    public static void choose(String[] phoneNums) {
         int ran = (int) (Math.random() * 10);
-        String str = phoneNum[ran].substring(7);
+        String str = phoneNums[ran].substring(7);
         System.out.println("恭喜手机尾号为 " + str + " 的朋友，您中奖了！");
         System.out.println("---------------------------------");
     }
@@ -45,7 +45,7 @@ public class LotterySystem_3_8 {
         return false;
     }
 
-    public static void choose(String[] phoneNum, int n) {
+    public static void choose(String[] phoneNums, int n) {
         int[] indexs = new int[n];
         int chooseIndex;
         for (int i = 0; i < n; i++) {
@@ -61,7 +61,7 @@ public class LotterySystem_3_8 {
         System.out.println("恭喜以下" + n + "位,你们中奖了");
         System.out.println("手机尾号分别为 ");
         for (int i : indexs) {
-            String str = phoneNum[i].substring(7);
+            String str = phoneNums[i].substring(7);
             System.out.println(str);
         }
         System.out.println("---------------------------------");
