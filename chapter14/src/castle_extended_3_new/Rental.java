@@ -1,6 +1,6 @@
 package castle_extended_3_new;
 
-class Rental {
+public class Rental {
  
     private Book book;
     private int dayRented;

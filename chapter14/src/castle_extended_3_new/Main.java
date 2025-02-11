@@ -3,9 +3,9 @@ package castle_extended_3_new;
 public class Main {
     public static void main(String[] args) {
         // 创建书籍
-        Book book1 = new Book("科学引文索引", Book.NOVEL);
-        Book book2 = new Book("百年孤独", Book.LITERATURE);
-        Book book3 = new Book("哈利·波特与魔法石", Book.NOVEL);
+        Book book1 = new Book("科学引文索引", new ComputerPriceCode());
+        Book book2 = new Book("百年孤独", new LiteraturePriceCode());
+        Book book3 = new Book("哈利·波特与魔法石", new NovelPriceCode());
 
         // 创建客户
         Customer customer = new Customer("张三");
