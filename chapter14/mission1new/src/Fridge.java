@@ -1,5 +1,3 @@
-package castle_extended_1_new;
-
 public class Fridge implements IFridge {
     @Override
     public void start() {

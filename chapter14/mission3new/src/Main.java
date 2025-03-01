@@ -1,5 +1,3 @@
-package castle_extended_3_new2;
-
 public class Main {
     public static void main(String[] args) {
         // 创建书籍
